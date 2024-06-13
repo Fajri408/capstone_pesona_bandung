@@ -1046,6 +1046,13 @@ a {
 
 }
 
+.cid-sFGMfPD7iT3 {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/transportasi/hero-transportasi.jpg");
+
+}
+
 .cid-sFGMfPD7iT .mbr-section-title {
   text-align: center;
   color: #ffffff;
@@ -1056,6 +1063,11 @@ a {
 }
 
 .cid-sFGMfPD7iT2 .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cid-sFGMfPD7iT3 .mbr-section-title {
   text-align: center;
   color: #ffffff;
 }
@@ -1073,6 +1085,12 @@ a {
 
 .cid-sFGMfPD7iT2 .mbr-text,
 .cid-sFGMfPD7iT2 .mbr-section-btn {
+  text-align: center;
+  color: #5f6366;
+}
+
+.cid-sFGMfPD7iT3 .mbr-text,
+.cid-sFGMfPD7iT3 .mbr-section-btn {
   text-align: center;
   color: #5f6366;
 }
