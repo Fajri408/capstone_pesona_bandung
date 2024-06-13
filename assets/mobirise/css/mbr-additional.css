@@ -1038,6 +1038,14 @@ a {
   padding-bottom: 16rem;
   background-image: url("../../../assets/images/gedung-sate-bandung.jpg");
 }
+
+.cid-sFGMfPD7iT2 {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/fasilitas/hero-fasillitas.jpg");
+
+}
+
 .cid-sFGMfPD7iT .mbr-section-title {
   text-align: center;
   color: #ffffff;
@@ -1046,6 +1054,12 @@ a {
   text-align: center;
   color: #ffffff;
 }
+
+.cid-sFGMfPD7iT2 .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
 .cid-sFGMfPD7iT .mbr-text,
 .cid-sFGMfPD7iT .mbr-section-btn {
   text-align: center;
@@ -1056,6 +1070,13 @@ a {
   text-align: center;
   color: #5f6366;
 }
+
+.cid-sFGMfPD7iT2 .mbr-text,
+.cid-sFGMfPD7iT2 .mbr-section-btn {
+  text-align: center;
+  color: #5f6366;
+}
+
 .cid-ufp83Qwi5a {
   padding-top: 6rem;
   padding-bottom: 0rem;
@@ -1114,6 +1135,7 @@ a {
   display: flex;
   flex-flow: column nowrap;
 }
+
 @media (min-width: 992px) {
   .cid-uf0PqeTfJ3 .item-wrapper .item-content {
     padding: 2rem;
