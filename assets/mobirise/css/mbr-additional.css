@@ -1060,6 +1060,20 @@ a {
 
 }
 
+.cid-sFGMfPD7iT3 {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/fasilitas/hero-perhotelan.jpg");
+
+}
+
+.cid-sFGMfPD7iT4 {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/fasilitas/hero-restoran.jpg");
+
+}
+
 .hero-transportasi {
   padding-top: 17rem;
   padding-bottom: 16rem;
@@ -1104,6 +1118,16 @@ a {
   color: #ffffff;
 }
 
+.cid-sFGMfPD7iT3 .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cid-sFGMfPD7iT4 .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
 .hero-transportasi .mbr-section-title {
   text-align: center;
   color: #ffffff;
@@ -1137,6 +1161,18 @@ a {
 
 .cid-sFGMfPD7iT2 .mbr-text,
 .cid-sFGMfPD7iT2 .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cid-sFGMfPD7iT3 .mbr-text,
+.cid-sFGMfPD7iT3 .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cid-sFGMfPD7iT4 .mbr-text,
+.cid-sFGMfPD7iT4 .mbr-section-btn {
   text-align: center;
   color: #ffffff;
 }
