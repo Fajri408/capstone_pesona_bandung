@@ -116,6 +116,12 @@ body {
   color: #ffffff !important;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
+.btn-primary {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -1054,12 +1060,35 @@ a {
 
 }
 
-.cid-sFGMfPD7iT3 {
+.hero-transportasi {
   padding-top: 17rem;
   padding-bottom: 16rem;
   background-image: url("../../../assets/images/transportasi/hero-transportasi.jpg");
 
 }
+
+.hero-stasiun {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/transportasi/hero-stasiun.jpg");
+
+}
+
+.hero-terminal {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/transportasi/hero-terminal.jpg");
+
+}
+
+.hero-tmb {
+  padding-top: 17rem;
+  padding-bottom: 16rem;
+  background-image: url("../../../assets/images/transportasi/hero-tmb.jpeg");
+
+}
+
+
 
 .cid-sFGMfPD7iT .mbr-section-title {
   text-align: center;
@@ -1075,7 +1104,22 @@ a {
   color: #ffffff;
 }
 
-.cid-sFGMfPD7iT3 .mbr-section-title {
+.hero-transportasi .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-stasiun .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-terminal .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-tmb .mbr-section-title {
   text-align: center;
   color: #ffffff;
 }
@@ -1097,8 +1141,26 @@ a {
   color: #ffffff;
 }
 
-.cid-sFGMfPD7iT3 .mbr-text,
-.cid-sFGMfPD7iT3 .mbr-section-btn {
+.hero-transportasi .mbr-text,
+.hero-transportasi .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-stasiun .mbr-text,
+.hero-stasiun .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-terminal .mbr-text,
+.hero-terminal .mbr-section-btn {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-tmb .mbr-text,
+.hero-tmb .mbr-section-btn {
   text-align: center;
   color: #ffffff;
 }
