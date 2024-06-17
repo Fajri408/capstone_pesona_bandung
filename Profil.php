@@ -57,7 +57,7 @@ if (empty($_SESSION['fullname'])) {
                     <li class="nav-item"><a class="nav-link link text-black display-7" href="Transportasi.html">Transportasi</a>
                     </li></ul>
                 <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="profil.html" target="_blank">
+                    <a class="iconfont-wrapper" href="profil.php" target="_blank">
                         <span>
                             <img src="assets/images/akun-removebg-preview.png" class="profil active" alt="logoakun kecil" style="height: 40px; width: auto;">
                         </span>
