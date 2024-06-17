@@ -1,15 +1,21 @@
+<?php
+session_start();
+
+if (empty($_SESSION['fullname'])) {
+    header("Location: index.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.8.14, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <meta name="description" content="">
-  
-  
   <title>Page 2</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -55,8 +61,6 @@
                         <span>
                             <img src="assets/images/akun-removebg-preview.png" alt="logoakun kecil" style="height: 40px; width: auto;">
                         </span>
-
-
                     </a>
                 </div>
                 
@@ -66,10 +70,6 @@
 </section>
 
 <section data-bs-version="5.1" class="features16 cid-ufWrwH2Sln" id="features17-u">
-    
-
-    
-    
     <div class="container">
         <div class="content-wrapper">
             <div class="row align-items-center">
@@ -81,10 +81,10 @@
                 <div class="col-12 col-lg">
                     <div class="text-wrapper">
                         <h6 class="card-title mbr-fonts-style display-5">
-                            <strong>Nama Akun</strong></h6>
+                            <strong> <?php echo "<h1>Hallo, " . $_SESSION['fullname'] ."!". "</h1>"; ?></strong></h6>
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
                             Ucapan Terimakasih Lucu Lucuan</p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="https://mobiri.se">Logout</a></div>
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="Admin/logout.php">Logout</a></div>
                     </div>
                 </div>
             </div>
