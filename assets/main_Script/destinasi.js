@@ -23,8 +23,10 @@ async function fetchAndDisplayDestinations() {
             </div>
             <div class="item-content ms-3" style="flex: 1 1 auto;">
               <h5 class="item-title mbr-fonts-style mb-2 mt-2 display-7"><strong>${destination.name}</strong></h5>
-              <p class="item-description mbr-fonts-style mb-2 mt-2 display-7">Deskripsi: ${destination.description}</p>
-              <h6 class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7">Category: ${destination.category}, Lokasi: ${destination.lokasi}, Rating: ${destination.rating}</h6>
+              <p class="item-description mbr-fonts-style mb-2 mt-2 display-7">Deskripsi : ${destination.description}</p>
+              <h6 class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7">Kategori : <strong>${destination.category}</strong></h6>
+              <h6 class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7">Lokasi : ${destination.lokasi}</h6>
+              <h6 class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7">🌟 : ${destination.rating}</h6>
               <a href="${destination.link}" class="btn btn-primary w-100 display-4" target="_blank">Kunjungi Destinasi</a>
             </div>
           </div>

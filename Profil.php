@@ -2,7 +2,7 @@
 session_start();
 
 if (empty($_SESSION['fullname'])) {
-    header("Location: index.php");
+    header("Location: Admin/index.html");
     exit();
 }
 ?>
@@ -12,11 +12,11 @@ if (empty($_SESSION['fullname'])) {
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.14, mobirise.com">
+  <meta name="generator" content="Pesona Bandung">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <meta name="description" content="">
-  <title>Page 2</title>
+  <title>Profil</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -75,7 +75,7 @@ if (empty($_SESSION['fullname'])) {
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="image-wrapper">
-                        <img src="assets/images/transportasi/hero-terminal.jpg" alt="Mobirise Website Builder">
+                        <img src="assets/images/transportasi/hero-terminal.jpg" alt="Foto Profil">
                     </div>
                 </div>
                 <div class="col-12 col-lg">
@@ -102,7 +102,7 @@ if (empty($_SESSION['fullname'])) {
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © 2024 - PesonaBandung/Destini by Sinyosimpers - All Rights Reserved
+                    © 2024 - Pesona Bandung - All Rights Reserved
                 </p>
             </div>
         </div>
