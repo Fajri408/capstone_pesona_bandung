@@ -1012,6 +1012,10 @@ a {
   font-weight: bold;
 }
 
+.profil.active {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.279);
+}
+
 .cid-sFGMsvHDIa .icons-menu {
   flex-wrap: nowrap;
   display: flex;
