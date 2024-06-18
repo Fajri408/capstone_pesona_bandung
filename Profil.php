@@ -80,7 +80,7 @@ if (empty($_SESSION['fullname'])) {
                         <h6 class="card-title mbr-fonts-style display-5">
                             <strong> <?php echo "<h1>Hallo, " . $_SESSION['fullname'] ."!". "</h1>"; ?></strong></h6>
                         <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            Ucapan Terimakasih Lucu Lucuan</p>
+                            Terima Kasih Sudah Menggunakan Apliakasi Kami !!</p>
                         <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="Admin/logout.php">Logout</a></div>
                     </div>
                 </div>
@@ -89,12 +89,51 @@ if (empty($_SESSION['fullname'])) {
     </div>
 </section>
 
+<section>
+        <div class="container">
+            <div class="row">
+                <?php
+                require_once 'Admin/connect.php';
+
+                // Nama lokasi dihardcode
+                $locations = [
+                    "Braga",
+                    "Raaca Umpas",
+                    "Tangkuban Perahu"
+                ];
+
+                foreach ($locations as $lokasi) {
+                    
+                    $sql = "SELECT gambar FROM locations WHERE lokasi='$lokasi'";
+                    $result = $conn->query($sql);
+                    $gambar = "123.png"; // Gambar default
+
+                    if ($result->num_rows > 0) {
+                        $row = $result->fetch_assoc();
+                        $gambar = $row['gambar'];
+                    }
+                ?>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/<?php echo $gambar; ?>" class="card-img-top" alt="<?php echo $lokasi; ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $lokasi; ?> - ❤️</h5>
+                            <form action="Admin/upload.php" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="lokasi" value="<?php echo $lokasi; ?>">
+                                <div class="form-group">
+                                    <input type="file" class="form-control-file" name="gambar" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <?php } ?>
+            </div>
+        </div>
+    </section>
+
 <section data-bs-version="5.1" class="footer7 cid-ufWrwHZs6d" once="footers" id="footer7-v">
-
-    
-
-    
-
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
@@ -104,8 +143,15 @@ if (empty($_SESSION['fullname'])) {
             </div>
         </div>
     </div>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script> 
+<script src="assets/ytplayer/index.js"></script>
+<script src="assets/dropdown/js/navbar-dropdown.js"></script> 
+<script src="assets/theme/js/script.js"></script>  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-DzPRoLnh1CXqbz8e7YTVP2GnjfRA5f3X7F6+df3E6LPU+7GC3z5Rxfkg9hCJvxz2" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+pyRkL3vL2/cR5/cMz+o2m8o5+NPqVhjN6J" crossorigin="anonymous"></script>
+
   
 </body>
 </html>
