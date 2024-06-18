@@ -2233,3 +2233,191 @@ a {
   background-color: #000000;
   overflow: hidden;
 }
+
+.navbar {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+.header1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header1 .mbr-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.header1 h1 {
+  margin-top: 20%;
+  font-size: 3rem;
+}
+.header1 p {
+  font-size: 1.5rem;
+}
+.header1 .btn {
+  margin: 10px;
+}
+.gallery3 {
+  text-align: center;
+  padding: 40px 0;
+}
+.gallery3 .mbr-section-title {
+  margin-bottom: 20px;
+}
+.gallery3 .item {
+  margin-bottom: 20px;
+}
+.info-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.footer7 {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+.header1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header1 .mbr-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.header1 h1 {
+  margin-top: 20%;
+  font-size: 3rem;
+}
+.header1 p {
+  font-size: 1.5rem;
+}
+.header1 .btn {
+  margin: 10px;
+}
+.gallery3 {
+  text-align: center;
+  padding: 40px 0;
+}
+.gallery3 .mbr-section-title {
+  margin-bottom: 20px;
+}
+.gallery3 .item {
+  margin-bottom: 20px;
+}
+.searchbox {
+  padding: 20px 0;
+}
+.gallery5 {
+  padding: 40px 0;
+}
+.gallery5 .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.gallery5 .item-img {
+  margin-right: 20px;
+}
+.gallery5 .item-content {
+  flex: 1;
+}
+.features3 {
+  padding: 40px 0;
+}
+.navbar {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+.header1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header1 .mbr-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.header1 h1 {
+  margin-top: 20%;
+  font-size: 2.5rem;
+}
+.header1 .btn {
+  margin: 10px;
+}
+.gallery3 {
+  text-align: center;
+  padding: 40px 0;
+}
+.gallery3 .mbr-section-title {
+  margin-bottom: 20px;
+}
+.gallery3 .item {
+  margin-bottom: 20px;
+}
+.info-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.footer7 {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any inline block gaps */
+  margin: auto; /* Center the image horizontally */
+  border-radius: 3%;
+}
+
+.tarif-trans-metro-bandung {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+.tarif-trans-metro-bandung h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.tarif-trans-metro-bandung p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.tarif-trans-metro-bandung .table {
+  margin-top: 1rem;
+}
