@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 if ($row['role'] === 'admin') {
                     echo '<script>alert("Login Admin Berhasil!");</script>';
-                    header("Location: Insert.php");
+                    header("Location: insert-fasilitas.php");
                 } else {
                     echo '<script>alert("Login Berhasil!");</script>';
                     header("Location: ../Profil.php");
