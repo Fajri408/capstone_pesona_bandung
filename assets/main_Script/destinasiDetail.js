@@ -6,7 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             destinations = Object.values(data);
-            renderDestinations(destinations);
+            const filter = getURLParameter('filter');
+            if (filter) {
+                filterByCategory(filter);
+            } else {
+                renderDestinations(destinations);
+            }
         });
 });
 
@@ -55,8 +60,6 @@ function filterByCategory(category) {
     renderDestinations(filteredDestinations);
 }
 
-function filterDestinations() {
-    const searchInput = document.getElementById('searchInput').value.toLowerCase();
-    const filteredDestinations = destinations.filter(destination => destination.name.toLowerCase().includes(searchInput));
-    renderDestinations(filteredDestinations);
+function getURLParameter(name) {
+    return new URLSearchParams(window.location.search).get(name);
 }
