@@ -13,7 +13,9 @@ async function fetchAndDisplayFasilitas() {
     galleryContainer.innerHTML = '';
 
     // Loop through the data and create card elements
+    let count = 0;
     for (let key in data) {
+      if (count >= 3) break;
       const fasilitas = data[key];
       const cardHtml = `
         <div class="col-12 col-md-6 col-lg-12 item gallery-image active">
@@ -33,6 +35,7 @@ async function fetchAndDisplayFasilitas() {
         </div>
       `;
       galleryContainer.innerHTML += cardHtml;
+      count++;
     }
   } catch (error) {
     console.error('Error fetching and displaying fasilitas:', error);
