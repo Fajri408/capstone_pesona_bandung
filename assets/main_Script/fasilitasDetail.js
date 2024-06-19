@@ -63,3 +63,13 @@ function filterByCategory(category) {
 function getURLParameter(name) {
     return new URLSearchParams(window.location.search).get(name);
 }
+
+function filterFasilitas() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const filterFasilitas = fasilitas.filter(fasilitas => 
+        fasilitas.name.toLowerCase().includes(searchInput) || 
+        fasilitas.description.toLowerCase().includes(searchInput) ||
+        fasilitas.lokasi.toLowerCase().includes(searchInput)
+    );
+    renderFasilitas(filterFasilitas);
+}
