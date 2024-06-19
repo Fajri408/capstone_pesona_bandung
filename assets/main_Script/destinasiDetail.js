@@ -28,13 +28,13 @@ function renderDestinations(destinations) {
                     <div class="item-content">
                         <div class="d-flex justify-content-between align-items-center">
                             <h5 class="item-title mbr-fonts-style display-7 mb-0"><strong>${destination.name}</strong></h5>
-                            <button class="btn btn-primary btn-sm" onclick="toggleDetails(this)">Lihat Detail</button>
+                            <button class="btn btn-primary btn-sm display-4" onclick="toggleDetails(this)">Lihat Detail</button>
                         </div>
                         <div class="item-details mt-2" style="display: none;">
                             <p class="mbr-text mbr-fonts-style display-7">${destination.description}</p>
-                            <p><strong>Lokasi:</strong> ${destination.lokasi}</p>
-                            <p><strong>Rating:</strong> ${destination.rating}</p>
-                            <a href="${destination.link}" target="_blank" class="btn btn-link">Lihat di Peta</a>
+                            <p class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7"><strong>Lokasi : </strong> ${destination.lokasi}</p>
+                            <p class="mbr-item-subtitle mbr-fonts-style mb-2 mt-2 display-7">🌟 : ${destination.rating}</p>
+                            <a href="${destination.link}" target="_blank" class="btn btn-primary btn-sm display-4">Lihat di Peta</a>
                         </div>
                     </div>
                 </div>
